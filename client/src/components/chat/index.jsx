@@ -5,7 +5,7 @@ import {
   MultiChatWindow,
 } from "react-chat-engine-advanced";
 import Header from "@/components/header";
-import StandardMessageForm from "../customMessageForms/StandardMessageForm";
+import StandardMessageForm from "@/components/customMessageForms/StandardMessageForm";
 
 const Chat = () => {
   const chatProps = useMultiChatLogic(
