@@ -16,7 +16,7 @@ const Chat = () => {
   return (
     <div style={{ height: "100vh" }}>
       <MultiChatSocket {...chatProps} />
-      <MultiChatWindow
+      {/* <MultiChatWindow
         {...chatProps}
         style={{ height: "100%" }}
         renderChatHeader={(chat) => <Header chat={chat} />}
@@ -25,7 +25,7 @@ const Chat = () => {
             <StandardMessageForm props={props} activeChat={chatProps.chat} />
           );
         }}
-      />
+      /> */}
     </div>
   );
 };
