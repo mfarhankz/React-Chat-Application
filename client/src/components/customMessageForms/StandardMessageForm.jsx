@@ -15,13 +15,13 @@ const StandardMessageForm = () => {
             onLoad={() => URL.revokeObjectURL(preview)}
             alt="message-form-preview"
           />
-          {/* <XMarkIcon
+          <XMarkIcon
             className="message-form-icon-x"
             onClick={() => {
               setPreview("");
               setAttachment("");
             }}
-          /> */}
+          />
         </div>
       )}
     </div>
