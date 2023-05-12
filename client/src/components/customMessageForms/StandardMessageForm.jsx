@@ -24,6 +24,16 @@ const StandardMessageForm = () => {
           />
         </div>
       )}
+      <div className="message-form">
+        <div className="message-form-input-container">
+          <input
+            type="text"
+            className="message-form-input"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+        </div>
+      </div>
     </div>
   );
 };
