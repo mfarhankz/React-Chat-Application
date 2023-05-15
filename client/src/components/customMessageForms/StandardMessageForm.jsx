@@ -7,7 +7,7 @@ const StandardMessageForm = () => {
   const [preview, setPreview] = useState("");
   return (
     <div className="message-form-container">
-      {/* {preview && (
+      {preview && (
         <div className="message-form-preview">
           <img
             className="message-form-preview-image"
@@ -23,7 +23,7 @@ const StandardMessageForm = () => {
             }}
           />
         </div>
-      )} */}
+      )}
       <div className="message-form">
         <div className="message-form-input-container">
           <input
