@@ -8,21 +8,21 @@ const StandardMessageForm = () => {
   return (
     <div className="message-form-container">
       {preview && (
-        <div className="message-form-preview">
-          <img
-            className="message-form-preview-image"
-            src={preview}
-            onLoad={() => URL.revokeObjectURL(preview)}
-            alt="message-form-preview"
-          />
-          <XMarkIcon
-            className="message-form-icon-x"
-            onClick={() => {
-              setPreview("");
-              setAttachment("");
-            }}
-          />
-        </div>
+        // <div className="message-form-preview">
+        //   <img
+        //     className="message-form-preview-image"
+        //     src={preview}
+        //     onLoad={() => URL.revokeObjectURL(preview)}
+        //     alt="message-form-preview"
+        //   />
+        //   <XMarkIcon
+        //     className="message-form-icon-x"
+        //     onClick={() => {
+        //       setPreview("");
+        //       setAttachment("");
+        //     }}
+        //   />
+        // </div>
       )}
       <div className="message-form">
         <div className="message-form-input-container">
